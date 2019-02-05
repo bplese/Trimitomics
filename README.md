@@ -87,6 +87,7 @@ tblastn -query knownproteinseq_cox1.fa -db name_coxDB -db_gencode 4 -out nameoft
 velvetg velvet71/ -min_contig_lgth 100 -cov_cutoff 80 -max_coverage 170&
 
 *after that output file is contigs.fa in the folder velvet71
+
 *In the final contigs.fa if you are lucky you will have mitodata in few contigs. If not, repeat step with blast, using known protein seq. of coding genes from the closest species possible. 
 
 
