@@ -92,7 +92,7 @@ velvetg velvet71/ -min_contig_lgth 100 -cov_cutoff 80 -max_coverage 170&
 
 
 *if you still have gaps in your mitogenomes you can adjust the following:
-1. -k-mer size 31,51,71
+1. -k-mer size 31, 51, 71
 2. -cov_cutoff and -max_coverage 
 
 
