@@ -12,13 +12,14 @@ The datasets used are deposited at NCBI Sequence Read Archive (SRA) https://www.
 * Trinity version 2013_08_14 
 * Velvet 1.2.10
 
-## Mitochondrial genome recovery from RNA-seq data; in the following steps sponge Spongia officinalis is used as an example
+## Mitochondrial genome recovery from RNA-seq data 
 * The proposed pipeline uses 3 assemblies:
 
 1. NOVOPlasty (https://github.com/ndierckx/NOVOPlasty)
 2. Bowtie2/Trinity (https://github.com/trinityrnaseq/trinityrnaseq/wiki/Genome-Guided-Trinity-Transcriptome-Assembly)
 3. Velvet (https://github.com/dzerbino/velvet)
 
+In the following steps sponge Spongia officinalis is used as an example
 ## 1. NOVOPlasty 
 
 Prepare config file (NOVOpl_config) using sponge Hippospongia lachne as reference genome. Remove the forward and reverse adapter sequence in the original raw reads.
@@ -29,7 +30,7 @@ cutadapt -g AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT -o Spongi
 * Cutting the 3’ adapter sequence
 cutadapt -a CAAGCAGAAGACGGCATACGAGATGTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT -o Spongia_officinalis_adapterremove_R2.fq.gz Spongia_officinalis_R2.fq.gz&  
 
-* start NOVOplasty script
+* start NOVOplasty script:
 perl NOVOPlasty.pl -c NOVOpl_config.txt&
 
 * adapter sequence are specific adaptors used in library sequencing
