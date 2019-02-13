@@ -73,9 +73,11 @@ samtools sort /path/Spongia_officinalis_mapped.bam -o /path/Spongia_officinalis_
 Run velvet for at first with a k-mer size 71: 
 
 * use this if you want to use only paired reads:
+
 velveth velvet71 71 -shortPaired -separate -fastq.gz /path/Spongia_officinalis_R1_paired.fq.gz /path/Spongia_officinalis_R2_paired.fq.gz&
 
 * if you would like to include unpaired as well: (see velvet manual for additional options)
+
 velveth velvet71 71 -shortPaired -separate -fastq.gz /path/Spongia_officinalis_R1_paired.fq.gz /path/Spongia_officinalis_R2_paired.fq.gz -short /path/Spongia_officinalis_all_unpaired.fq.gz&
 
 * run velvetg, with a low coverage cutoff, to exclude sequencing errors:
