@@ -24,10 +24,10 @@ In the following steps sponge Spongia officinalis is used as an example
 
 Prepare config file (NOVOpl_config) using sponge Hippospongia lachne as reference genome. Remove the forward and reverse adapter sequence in the original raw reads.
 
-* Cutting the 5’ adapter sequence
+* Cutting the 5’ adapter sequence:
 cutadapt -g AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT -o Spongia_officinalis_adapterremove_R1.fq.gz Spongia_officinalis_R1.fq.gz& 
 
-* Cutting the 3’ adapter sequence
+* Cutting the 3’ adapter sequence:
 cutadapt -a CAAGCAGAAGACGGCATACGAGATGTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT -o Spongia_officinalis_adapterremove_R2.fq.gz Spongia_officinalis_R2.fq.gz&  
 
 * start NOVOplasty script:
