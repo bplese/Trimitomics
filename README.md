@@ -1,5 +1,5 @@
 # Trimitomics: An efficient pipeline for mitochondrial assembly from transcriptomic reads in non-model species
-Author(s): [Bruna Plese], Maria Eleonora Rossi, Nathan James Kenny, Sergi Taboada, Vasiliki Koutsouveli, and Ana Riesgo (mailto:bplese@irb.hr)  
+Author(s): Bruna Plese, Maria Eleonora Rossi, Nathan James Kenny, Sergi Taboada, Vasiliki Koutsouveli, and Ana Riesgo  
 
 ## Data
 
