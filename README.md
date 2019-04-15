@@ -3,7 +3,7 @@ Author(s): Bruna Plese, Maria Eleonora Rossi, Nathan James Kenny, Sergi Taboada,
 
 ## Data
 
-The datasets used are deposited at NCBI Sequence Read Archive (SRA) https://www.ncbi.nlm.nih.gov/sra. Conversion from SRA file format to FASTQ is done using fastq-dump (with –readids and –split-files parameters) from SRAtoolkit.2.8.2. All the reads used were paired end but single end reads can be used as well. Check the quality of reads using FastQC of for more files you can use MultiQC.
+The datasets used are deposited at NCBI Sequence Read Archive (SRA) https://www.ncbi.nlm.nih.gov/sra. Conversion from SRA file format to FASTQ is done using fastq-dump (with –readids and –split-files parameters) from SRAtoolkit.2.8.2. All the reads used were paired end but single end reads can be used as well. Check the quality of reads using FastQC; for more files you can use MultiQC.
 
 ## Minimum prerequisites
 
