@@ -9,7 +9,7 @@ The datasets used are deposited at NCBI Sequence Read Archive (SRA) https://www.
 
 * NOVOPlasty version 2.7.1 and an appropriately filled out config file (example given here)
 * Bowtie2 
-* Trinity version 2013_08_14 
+* Trinity version v2.8.4
 * Velvet 1.2.10
 
 ## Mitochondrial genome recovery from RNA-seq data; in the following steps arthropod Thermobia domestica is used as an example
