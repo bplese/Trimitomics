@@ -1,7 +1,7 @@
 # Trimitomics: An efficient pipeline for mitochondrial assembly from transcriptomic reads in non-model species
 Author(s): Bruna Plese, Maria Eleonora Rossi, Nathan James Kenny, Sergi Taboada, Vasiliki Koutsouveli, and Ana Riesgo 
 
-#How to cite: Plese B, Rossi ME, Kenny N, Taboada S, Koutsouveli V, Riesgo A (2019) Trimitomics: An efficient pipeline for mitochondrial assembly from transcriptomic reads in non-model species. Molecular Ecology Resources https://doi.org/10.1111/1755-0998.13033
+How to cite: Plese B, Rossi ME, Kenny N, Taboada S, Koutsouveli V, Riesgo A (2019) Trimitomics: An efficient pipeline for mitochondrial assembly from transcriptomic reads in non-model species. Molecular Ecology Resources https://doi.org/10.1111/1755-0998.13033
 
 ## Data
 
